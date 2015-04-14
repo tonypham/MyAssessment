@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		18B62F391ADC83B900CE5CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B62F381ADC83B900CE5CC5 /* AppDelegate.swift */; };
-		18B62F3B1ADC83B900CE5CC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B62F3A1ADC83B900CE5CC5 /* ViewController.swift */; };
 		18B62F3E1ADC83B900CE5CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B62F3C1ADC83B900CE5CC5 /* Main.storyboard */; };
 		18B62F401ADC83B900CE5CC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B62F3F1ADC83B900CE5CC5 /* Images.xcassets */; };
 		18B62F431ADC83B900CE5CC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B62F411ADC83B900CE5CC5 /* LaunchScreen.xib */; };
 		18B62F4F1ADC83B900CE5CC5 /* MyAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B62F4E1ADC83B900CE5CC5 /* MyAssessmentTests.swift */; };
+		18B62F591ADC843B00CE5CC5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B62F581ADC843B00CE5CC5 /* FirstViewController.swift */; };
+		18B62F5B1ADC844500CE5CC5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B62F5A1ADC844500CE5CC5 /* SecondViewController.swift */; };
+		18B62F5D1ADC845800CE5CC5 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B62F5C1ADC845800CE5CC5 /* ThirdTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		18B62F331ADC83B900CE5CC5 /* MyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B62F371ADC83B900CE5CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B62F381ADC83B900CE5CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18B62F3A1ADC83B900CE5CC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18B62F3D1ADC83B900CE5CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B62F3F1ADC83B900CE5CC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18B62F421ADC83B900CE5CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18B62F481ADC83B900CE5CC5 /* MyAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B62F4D1ADC83B900CE5CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B62F4E1ADC83B900CE5CC5 /* MyAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssessmentTests.swift; sourceTree = "<group>"; };
+		18B62F581ADC843B00CE5CC5 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		18B62F5A1ADC844500CE5CC5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18B62F5C1ADC845800CE5CC5 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				18B62F381ADC83B900CE5CC5 /* AppDelegate.swift */,
-				18B62F3A1ADC83B900CE5CC5 /* ViewController.swift */,
+				18B62F581ADC843B00CE5CC5 /* FirstViewController.swift */,
+				18B62F5A1ADC844500CE5CC5 /* SecondViewController.swift */,
+				18B62F5C1ADC845800CE5CC5 /* ThirdTableViewController.swift */,
 				18B62F3C1ADC83B900CE5CC5 /* Main.storyboard */,
 				18B62F3F1ADC83B900CE5CC5 /* Images.xcassets */,
 				18B62F411ADC83B900CE5CC5 /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B62F3B1ADC83B900CE5CC5 /* ViewController.swift in Sources */,
+				18B62F5B1ADC844500CE5CC5 /* SecondViewController.swift in Sources */,
 				18B62F391ADC83B900CE5CC5 /* AppDelegate.swift in Sources */,
+				18B62F591ADC843B00CE5CC5 /* FirstViewController.swift in Sources */,
+				18B62F5D1ADC845800CE5CC5 /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyAssessment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyAssessment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
